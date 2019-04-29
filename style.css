@@ -78,17 +78,18 @@ header {
 	font-size: 16px;
 	text-align: center;
 	padding-top: 30px;
+	margin-bottom: 30px;
 }
 .production-group {
-	width: 940px;
-	padding: 50px 0 50px 0;
+	padding: 0 0 90px 0;
 	margin: 0 auto;
+	width: 920px;
 }
 .production {
 	float:left;
 	width: 300px;
 	height: 250px;
-	margin: 10px 10px 0 0 ;
+	margin:10px 10px 0 0;
 	background-size: cover;
 	background-position: center;
 }
@@ -100,6 +101,7 @@ header {
 }
 .bg3 {
 	background-image: url(img/write.jpg);
+	margin-right: 0px;
 }
 .bg4 {
 	background-image: url(img/webcamp.png);
@@ -109,26 +111,27 @@ header {
 }
 .bg6 {
 	background-image: url(img/webcamp-mother.png);
+	margin-right: 0px;
 }
 #Feature {
 	background-size: cover;
 	background-position: center;
 }
 .strength {
-	width:1100px;
+	width:980px;
 	padding: 30px 0 90px 0;
 	margin: 0 auto;
 }
 .strength1 {
 	float: left;
 	width: 320px;
-	margin-right: 20px;
+	margin-right: 10px;
 	text-align: center;
 	font-size: 60px;
 	background-image: 
 }
-.strength:last-child {
-	margin-right:0;
+.strength1:nth-child(3){
+	margin-right:0px;
 }
 .sub-title {
 	font-size: 20px;
@@ -298,20 +301,25 @@ header {
 	}
 	.production-group {
 		width: 100%;
+		padding: 30px 0 90px 0;
 	}
 	.production {
 		float: none;
 		position: center;
 		margin: 0 auto;
+		margin-bottom: 10px;
 	}
 	.strength {
 		width: 100%;
 	}
 	.strength1 {
 		float: none;
-		margin-bottom:10px;
+		padding-bottom:10px;
 		text-align: center;
 		margin:auto;
+	}
+	.strength1:nth-child(3) {
+		margin:0 auto;
 	}
 	.abc {
 		width: 100%;
