@@ -20,6 +20,9 @@ header {
 	height: 70px;
 	background-color: #EC715F;
 }
+.wrap {
+	overflow: hidden;
+}
 .logo {
 	height: 70px;
 	float: left;
@@ -162,6 +165,10 @@ header {
 	width: 50%;
 	float: right;
 }
+.leftside-detail {
+	width: 140px;
+	margin: 0 auto;
+}
 .prof-text {
 	padding-top:  30px;
 	text-align: center;
@@ -213,6 +220,7 @@ header {
 }
 .leftside {
 	width: 400px;
+	text-align: left;
 	float: left;
 }
 .rightside {
@@ -245,14 +253,17 @@ header {
 }
 
 @media screen and (max-width:767px) {
-	.container {
-		width: 100%;
+	body {
+		max-width: 1024px;
 	}
 	.logo {
 		height: 50px;
 	}
 	header {
 		height: 50px;
+	}
+	.container {
+		width: 100%;
 	}
 	.menu-box {
 		float: right;
@@ -272,7 +283,7 @@ header {
 		border-radius: 1px;
 		padding: 1px;
 		display: block;
-		margin: 5px auto;
+		margin:5px auto;
 	}
 	nav {
 		display: none;
